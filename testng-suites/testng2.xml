@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="1" parallel="tests" thread-count="5">
+  
+  <listeners>
+    <listener class-name="com.iasys.listeners.TestListener"/>
+   <!--listener class-name="com.iasys.listeners.RetryAnalyzer"/-->
+  </listeners>
+
+  <test name="LoginTests">
+    <classes>
+      <class name="com.iasys.tests.LoginTest"/>
+    </classes>
+  </test>
+  
+</suite>

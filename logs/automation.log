@@ -1,0 +1,1158 @@
+2025-11-02 20:13:59 INFO  LoginPTest:14 - ************************Login Test start*****************************
+2025-11-02 20:14:15 INFO  LoginPTest:21 - ************************Login Test finish*****************************
+2025-11-03 10:22:29 INFO  LoginPTest:14 - ************************Login Test start*****************************
+2025-11-03 10:22:35 INFO  LoginPTest:21 - ************************Login Test finish*****************************
+
+
+
+2025-11-04 12:25:10 INFO  LoginPTest:77 - Driver initialized successfully for browser: chrome
+2025-11-04 12:25:11 INFO  LoginPTest:17 - ************************Login Test start*****************************
+2025-11-04 12:25:21 INFO  LoginPTest:89 - Driver quit and removed from ThreadLocal.
+2025-11-04 12:27:17 INFO  LoginPTest:77 - Driver initialized successfully for browser: chrome
+2025-11-04 12:27:17 INFO  LoginPTest:16 - ************************Login Test start*****************************
+2025-11-04 12:27:28 INFO  LoginPTest:89 - Driver quit and removed from ThreadLocal.
+2025-11-04 12:46:43 INFO  LoginPTest:77 - Driver initialized successfully for browser: chrome
+2025-11-04 12:46:43 INFO  LoginPTest:16 - ************************Login Test start*****************************
+2025-11-04 12:46:54 INFO  LoginPTest:89 - Driver quit and removed from ThreadLocal.
+2025-11-04 13:03:01 INFO  LoginPTest:77 - Driver initialized successfully for browser: chrome
+2025-11-04 13:03:01 INFO  LoginPTest:16 - ************************Login Test start*****************************
+2025-11-04 13:03:11 INFO  LoginPTest:89 - Driver quit and removed from ThreadLocal.
+2025-11-04 13:05:04 INFO  LoginPTest:77 - Driver initialized successfully for browser: chrome
+2025-11-04 13:05:04 INFO  LoginPTest:16 - ************************Login Test start*****************************
+2025-11-04 13:05:15 INFO  LoginPTest:89 - Driver quit and removed from ThreadLocal.
+2025-11-04 13:09:39 INFO  LoginPTest:79 - Driver initialized successfully for browser: chrome
+2025-11-04 13:09:39 INFO  LoginPTest:16 - ************************Login Test start*****************************
+2025-11-04 13:09:50 INFO  LoginPTest:91 - Driver quit and removed from ThreadLocal.
+2025-11-04 13:57:40 WARN  VersionDetector:129 - Exception reading CfT URL ('https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions-with-downloads.json') to get version of chromedriver (Bad JSON. First 100 chars <HTML><HEAD><meta http-equiv=pragma content=nocache><META HTTP-EQUIV=Expires CONTENT=-1><SCRIPT>var )
+2025-11-04 13:57:40 WARN  WebDriverManager:1424 - There was an error managing chromedriver <HTML><HEAD>
+<meta http-equiv=pragma content=nocache>
+<META HTTP-EQUIV=Expires CONTENT=-1>
+<SCRIPT>
+var url = new DOMParser().parseFromString('<a></a>', 'text/xml').documentElement.textContent;
+window.onload=function() {
+	document.getElementById("portal_url").submit();
+}
+                                                                                                                                                                                                                                                                
+</SCRIPT>
+</HEAD><BODY>
+<form id='portal_url' action='http://securenet01.iasys.com:8090/httpclient.html' method= 'POST'>
+<input type='hidden' name='request_url' value=''/>
+</form>
+</BODY>
+</HTML>
+ (For input string: "<HTML><HEAD>
+<meta http-equiv=pragma content=nocache>
+<META HTTP-EQUIV=Expires CONTENT=-1>
+<SCRIPT>
+var url = new DOMParser()") ... trying again using latest driver stored in cache
+2025-11-04 13:57:40 WARN  VersionDetector:129 - Exception reading CfT URL ('https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions-with-downloads.json') to get version of chromedriver (Bad JSON. First 100 chars <HTML><HEAD><meta http-equiv=pragma content=nocache><META HTTP-EQUIV=Expires CONTENT=-1><SCRIPT>var )
+2025-11-04 13:57:40 ERROR WebDriverManager:1413 - There was an error managing chromedriver <HTML><HEAD>
+<meta http-equiv=pragma content=nocache>
+<META HTTP-EQUIV=Expires CONTENT=-1>
+<SCRIPT>
+var url = new DOMParser().parseFromString('<a></a>', 'text/xml').documentElement.textContent;
+window.onload=function() {
+	document.getElementById("portal_url").submit();
+}
+                                                                                                                                                                                                                                                                
+</SCRIPT>
+</HEAD><BODY>
+<form id='portal_url' action='http://securenet01.iasys.com:8090/httpclient.html' method= 'POST'>
+<input type='hidden' name='request_url' value=''/>
+</form>
+</BODY>
+</HTML>
+ (For input string: "<HTML><HEAD>
+<meta http-equiv=pragma content=nocache>
+<META HTTP-EQUIV=Expires CONTENT=-1>
+<SCRIPT>
+var url = new DOMParser()")
+java.lang.NumberFormatException: For input string: "<HTML><HEAD>
+<meta http-equiv=pragma content=nocache>
+<META HTTP-EQUIV=Expires CONTENT=-1>
+<SCRIPT>
+var url = new DOMParser()"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:668) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:786) ~[?:?]
+	at io.github.bonigarcia.wdm.managers.ChromeDriverManager.buildUrl(ChromeDriverManager.java:177) ~[webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.managers.ChromeDriverManager.buildUrl(ChromeDriverManager.java:154) ~[webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1262) ~[webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1183) ~[webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1430) ~[webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1408) ~[webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1189) ~[webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:426) ~[webdrivermanager-5.7.0.jar:?]
+	at com.iasys.base.BaseTest.initializeLocalDriver(BaseTest.java:123) ~[classes/:?]
+	at com.iasys.base.BaseTest.setUp(BaseTest.java:68) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-11-04 13:58:26 INFO  LoginPTest:79 - Driver initialized successfully for browser: chrome
+2025-11-04 13:58:26 INFO  LoginPTest:16 - ************************Login Test start*****************************
+2025-11-04 13:58:37 INFO  LoginPTest:91 - Driver quit and removed from ThreadLocal.
+2025-11-04 13:59:55 INFO  LoginPTest:79 - Driver initialized successfully for browser: chrome
+2025-11-04 13:59:55 INFO  LoginPTest:16 - ************************Login Test start*****************************
+2025-11-04 14:00:06 INFO  LoginPTest:91 - Driver quit and removed from ThreadLocal.
+2025-11-04 14:02:10 INFO  LoginPTest:79 - Driver initialized successfully for browser: chrome
+2025-11-04 14:02:10 INFO  LoginPTest:16 - ************************Login Test start*****************************
+2025-11-04 14:02:21 INFO  LoginPTest:91 - Driver quit and removed from ThreadLocal.
+2025-11-04 14:03:41 INFO  LoginPTest:79 - Driver initialized successfully for browser: chrome
+2025-11-04 14:03:41 INFO  LoginPTest:16 - ************************Login Test start*****************************
+2025-11-04 14:03:52 INFO  LoginPTest:91 - Driver quit and removed from ThreadLocal.
+2025-11-04 14:06:08 INFO  LoginPTest:79 - Driver initialized successfully for browser: chrome
+2025-11-04 14:06:08 INFO  LoginPTest:16 - ************************Login Test start*****************************
+2025-11-04 14:06:19 INFO  LoginPTest:91 - Driver quit and removed from ThreadLocal.
+2025-11-04 14:07:33 INFO  LoginPTest:79 - Driver initialized successfully for browser: chrome
+2025-11-04 14:07:33 INFO  LoginPTest:16 - ************************Login Test start*****************************
+2025-11-04 14:07:33 INFO  LoginPTest:19 - ************************Login Test finish*****************************
+2025-11-04 14:07:34 INFO  LoginPTest:91 - Driver quit and removed from ThreadLocal.
+2025-11-04 14:10:33 INFO  LoginPTest:79 - Driver initialized successfully for browser: chrome
+2025-11-04 14:10:33 INFO  LoginPTest:16 - ************************Login Test start*****************************
+2025-11-04 14:10:34 INFO  LoginPTest:19 - ************************Login Test finish*****************************
+2025-11-04 14:10:35 INFO  LoginPTest:91 - Driver quit and removed from ThreadLocal.
+2025-11-04 14:11:43 INFO  LoginPTest:79 - Driver initialized successfully for browser: chrome
+2025-11-04 14:11:43 INFO  LoginPTest:16 - ************************Login Test start*****************************
+2025-11-04 14:11:43 INFO  LoginPTest:19 - ************************Login Test finish*****************************
+2025-11-04 14:11:44 INFO  LoginPTest:91 - Driver quit and removed from ThreadLocal.
+2025-11-04 14:12:29 INFO  LoginPTest:79 - Driver initialized successfully for browser: chrome
+2025-11-04 14:12:29 INFO  LoginPTest:16 - ************************Login Test start*****************************
+2025-11-04 14:12:30 INFO  LoginPTest:19 - ************************Login Test finish*****************************
+2025-11-04 14:12:31 INFO  LoginPTest:91 - Driver quit and removed from ThreadLocal.
+2025-11-04 14:12:51 INFO  LoginPTest:79 - Driver initialized successfully for browser: chrome
+2025-11-04 14:12:51 INFO  LoginPTest:16 - ************************Login Test start*****************************
+2025-11-04 14:12:51 INFO  LoginPTest:19 - ************************Login Test finish*****************************
+2025-11-04 14:12:52 INFO  LoginPTest:91 - Driver quit and removed from ThreadLocal.
+2025-11-05 14:08:34 INFO  LoginPTest:79 - Driver initialized successfully for browser: chrome
+2025-11-05 14:08:34 INFO  LoginPTest:16 - ************************Login Test start*****************************
+2025-11-05 14:08:34 INFO  LoginPTest:19 - ************************Login Test finish*****************************
+2025-11-05 14:08:35 INFO  LoginPTest:91 - Driver quit and removed from ThreadLocal.
+2025-11-06 22:12:40 INFO  LoginPTest:79 - Driver initialized successfully for browser: chrome
+2025-11-06 22:12:41 INFO  LoginPTest:16 - ************************Login Test start*****************************
+2025-11-06 22:12:54 INFO  LoginPTest:91 - Driver quit and removed from ThreadLocal.
+2025-11-06 22:14:04 INFO  LoginPTest:79 - Driver initialized successfully for browser: chrome
+2025-11-06 22:14:05 INFO  LoginPTest:16 - ************************Login Test start*****************************
+2025-11-06 22:14:05 INFO  LoginPTest:19 - ************************Login Test finish*****************************
+2025-11-06 22:14:07 INFO  LoginPTest:91 - Driver quit and removed from ThreadLocal.
+2025-11-06 23:34:48 INFO  LoginPTest:55 - WebDriver initialized for: chrome
+2025-11-06 23:34:48 INFO  LoginPTest:16 - ************************Login Test start*****************************
+2025-11-06 23:35:04 INFO  LoginPTest:115 - WebDriver quit and removed from ThreadLocal.
+2025-11-06 23:35:52 INFO  LoginPTest:55 - WebDriver initialized for: chrome
+2025-11-06 23:35:52 INFO  LoginPTest:16 - ************************Login Test start*****************************
+2025-11-06 23:36:03 INFO  LoginPTest:115 - WebDriver quit and removed from ThreadLocal.
+2025-11-06 23:36:38 INFO  LoginPTest:55 - WebDriver initialized for: chrome
+2025-11-06 23:36:38 INFO  LoginPTest:16 - ************************Login Test start*****************************
+2025-11-06 23:36:49 INFO  LoginPTest:115 - WebDriver quit and removed from ThreadLocal.
+2025-11-06 23:39:06 INFO  LoginPTest:55 - WebDriver initialized for: chrome
+2025-11-06 23:39:06 INFO  LoginPTest:16 - ************************Login Test start*****************************
+2025-11-07 00:00:52 INFO  LoginPTest:56 - WebDriver initialized for: chrome
+2025-11-07 00:00:52 INFO  LoginPTest:16 - ************************Login Test start*****************************
+2025-11-07 00:00:53 INFO  LoginPTest:19 - ************************Login Test finish*****************************
+2025-11-07 00:00:54 INFO  LoginPTest:116 - WebDriver quit and removed from ThreadLocal.
+2025-11-07 01:01:23 INFO  LoginPTest:56 - WebDriver initialized for: chrome
+2025-11-07 01:01:23 INFO  LoginPTest:14 - ************************Login Test start*****************************
+2025-11-07 01:01:24 INFO  LoginPTest:17 - ************************Login Test finish*****************************
+2025-11-07 01:01:25 INFO  LoginPTest:116 - WebDriver quit and removed from ThreadLocal.
+2025-11-07 01:07:36 INFO  LoginPTest:56 - WebDriver initialized for: chrome
+2025-11-07 01:07:36 INFO  LoginPTest:14 - ************************Login Test start*****************************
+2025-11-07 01:07:37 INFO  LoginPTest:17 - ************************Login Test finish*****************************
+2025-11-07 01:07:38 INFO  LoginPTest:116 - WebDriver quit and removed from ThreadLocal.
+2025-11-07 01:21:18 INFO  LoginPTest:56 - WebDriver initialized for: chrome
+2025-11-07 01:21:18 INFO  LoginPTest:14 - ************************Login Test start*****************************
+2025-11-07 01:21:29 INFO  LoginPTest:17 - ************************Login Test finish*****************************
+2025-11-07 01:21:32 INFO  LoginPTest:116 - WebDriver quit and removed from ThreadLocal.
+2025-11-07 01:42:52 INFO  LoginPTest:56 - WebDriver initialized for: chrome
+2025-11-07 01:42:52 INFO  LoginPTest:14 - ************************Login Test start*****************************
+2025-11-07 01:43:03 INFO  LoginPTest:17 - ************************Login Test finish*****************************
+2025-11-07 01:43:05 INFO  LoginPTest:116 - WebDriver quit and removed from ThreadLocal.
+2025-11-07 09:32:14 INFO  LoginPTest:56 - WebDriver initialized for: chrome
+2025-11-07 09:32:14 INFO  LoginPTest:14 - ************************Login Test start*****************************
+2025-11-07 09:32:26 INFO  LoginPTest:17 - ************************Login Test finish*****************************
+2025-11-07 09:32:28 INFO  LoginPTest:116 - WebDriver quit and removed from ThreadLocal.
+2025-11-07 09:44:29 INFO  LoginPTest:56 - WebDriver initialized for: chrome
+2025-11-07 09:44:29 INFO  LoginPTest:14 - ************************Login Test start*****************************
+2025-11-07 09:44:41 INFO  LoginPTest:17 - ************************Login Test finish*****************************
+2025-11-07 09:44:43 INFO  LoginPTest:116 - WebDriver quit and removed from ThreadLocal.
+2025-11-10 11:17:15 INFO  LoginPTest:56 - WebDriver initialized for: chrome
+2025-11-10 11:17:15 INFO  LoginPTest:14 - ************************Login Test start*****************************
+2025-11-10 11:17:28 INFO  LoginPTest:17 - ************************Login Test finish*****************************
+2025-11-10 17:16:21 INFO  LoginTest:56 - WebDriver initialized for: chrome
+2025-11-10 17:16:21 INFO  LoginTest:14 - ************************Login Test start*****************************
+2025-11-10 17:16:22 INFO  LoginTest:116 - WebDriver quit and removed from ThreadLocal.
+2025-11-10 17:20:43 INFO  LoginTest:56 - WebDriver initialized for: chrome
+2025-11-10 17:20:43 INFO  LoginTest:14 - ************************Login Test start*****************************
+2025-11-10 17:20:43 INFO  LoginTest:116 - WebDriver quit and removed from ThreadLocal.
+2025-11-10 17:28:11 INFO  LoginTest:56 - WebDriver initialized for: chrome
+2025-11-10 17:28:11 INFO  LoginTest:14 - ************************Login Test start*****************************
+2025-11-10 17:28:12 INFO  LoginTest:116 - WebDriver quit and removed from ThreadLocal.
+2025-11-10 17:36:51 INFO  LoginPTest:56 - WebDriver initialized for: chrome
+2025-11-10 17:36:51 INFO  LoginPTest:14 - ************************Login Test start*****************************
+2025-11-10 17:37:12 INFO  LoginPTest:56 - WebDriver initialized for: chrome
+2025-11-10 17:37:12 INFO  LoginPTest:14 - ************************Login Test start*****************************
+2025-11-10 17:37:26 INFO  LoginPTest:17 - ************************Login Test finish*****************************
+2025-11-10 17:37:27 INFO  LoginPTest:116 - WebDriver quit and removed from ThreadLocal.
+2025-11-10 17:45:03 INFO  LoginTest:56 - WebDriver initialized for: chrome
+2025-11-10 17:45:03 INFO  LoginTest:14 - ************************Login Test start*****************************
+2025-11-10 17:45:03 INFO  LoginTest:116 - WebDriver quit and removed from ThreadLocal.
+2025-11-10 17:46:08 INFO  LoginTest:56 - WebDriver initialized for: chrome
+2025-11-10 17:46:08 INFO  LoginTest:14 - ************************Login Test start*****************************
+2025-11-10 17:46:09 INFO  LoginTest:116 - WebDriver quit and removed from ThreadLocal.
+2025-11-10 17:47:37 INFO  LoginTest:56 - WebDriver initialized for: chrome
+2025-11-10 17:47:43 INFO  LoginTest:14 - ************************Login Test start*****************************
+2025-11-10 17:47:44 INFO  LoginTest:116 - WebDriver quit and removed from ThreadLocal.
+2025-11-10 18:00:34 INFO  LoginTest:56 - WebDriver initialized for: chrome
+2025-11-10 18:00:34 INFO  LoginTest:14 - ************************Login Test start*****************************
+2025-11-10 18:00:35 INFO  LoginTest:116 - WebDriver quit and removed from ThreadLocal.
+2025-11-10 18:01:40 INFO  LoginTest:56 - WebDriver initialized for: chrome
+2025-11-10 18:01:51 INFO  LoginTest:14 - ************************Login Test start*****************************
+2025-11-10 18:01:51 INFO  LoginTest:116 - WebDriver quit and removed from ThreadLocal.
+2025-11-10 18:05:50 INFO  LoginTest:56 - WebDriver initialized for: chrome
+2025-11-10 18:05:54 INFO  LoginTest:14 - ************************Login Test start*****************************
+2025-11-10 18:05:55 INFO  LoginTest:116 - WebDriver quit and removed from ThreadLocal.
+2025-11-10 18:08:46 INFO  LoginTest:56 - WebDriver initialized for: chrome
+2025-11-10 18:08:47 INFO  LoginTest:14 - ************************Login Test start*****************************
+2025-11-10 18:08:58 INFO  LoginTest:116 - WebDriver quit and removed from ThreadLocal.
+2025-11-11 10:22:40 INFO  LoginTest:59 - WebDriver initialized for: chrome
+2025-11-11 10:22:42 INFO  LoginTest:120 - WebDriver quit and removed from ThreadLocal.
+2025-11-11 10:22:46 INFO  LoginTest:59 - WebDriver initialized for: chrome
+2025-11-11 10:22:46 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-11-11 10:22:57 INFO  LoginTest:120 - WebDriver quit and removed from ThreadLocal.
+2025-11-11 10:26:06 INFO  LoginTest:59 - WebDriver initialized for: chrome
+2025-11-11 10:26:10 INFO  LoginTest:120 - WebDriver quit and removed from ThreadLocal.
+2025-11-11 10:26:10 INFO  LoginTest:59 - WebDriver initialized for: chrome
+2025-11-11 10:26:10 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-11-11 10:26:14 INFO  LoginTest:120 - WebDriver quit and removed from ThreadLocal.
+2025-11-11 10:27:05 INFO  LoginTest:59 - WebDriver initialized for: chrome
+2025-11-11 10:27:06 INFO  LoginTest:120 - WebDriver quit and removed from ThreadLocal.
+2025-11-11 10:27:07 INFO  LoginTest:59 - WebDriver initialized for: chrome
+2025-11-11 10:27:07 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-11-11 10:27:11 INFO  LoginTest:120 - WebDriver quit and removed from ThreadLocal.
+2025-11-11 10:28:41 INFO  LoginTest:59 - WebDriver initialized for: chrome
+2025-11-11 10:28:45 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-11-11 10:28:56 INFO  LoginTest:120 - WebDriver quit and removed from ThreadLocal.
+2025-11-11 10:32:23 INFO  LoginTest:59 - WebDriver initialized for: chrome
+2025-11-11 10:32:27 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-11-11 10:32:38 INFO  LoginTest:120 - WebDriver quit and removed from ThreadLocal.
+2025-11-11 10:37:20 WARN  VersionDetector:155 - Exception reading https://msedgedriver.azureedge.net/LATEST_RELEASE_142_WINDOWS to get latest version of msedgedriver (No such host is known (msedgedriver.azureedge.net))
+2025-11-11 10:37:20 WARN  VersionDetector:155 - Exception reading https://msedgedriver.azureedge.net/LATEST_STABLE to get latest version of msedgedriver (msedgedriver.azureedge.net)
+2025-11-11 10:37:20 WARN  WebDriverManager:1424 - There was an error managing msedgedriver (latest version) (java.net.UnknownHostException: msedgedriver.azureedge.net) ... trying again using latest driver stored in cache
+2025-11-11 10:37:20 WARN  VersionDetector:155 - Exception reading https://msedgedriver.azureedge.net/LATEST_STABLE to get latest version of msedgedriver (msedgedriver.azureedge.net)
+2025-11-11 10:37:20 ERROR WebDriverManager:1413 - There was an error managing msedgedriver (latest version) (java.net.UnknownHostException: msedgedriver.azureedge.net)
+io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net
+	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1565) ~[webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.managers.EdgeDriverManager.getDriverUrls(EdgeDriverManager.java:115) ~[webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.createUrlHandler(WebDriverManager.java:1435) ~[webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1267) [webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1183) [webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1430) [webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1408) [webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1189) [webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:426) [webdrivermanager-5.7.0.jar:?]
+	at com.iasys.base.BaseTest.initializeLocalDriver(BaseTest.java:87) [classes/:?]
+	at com.iasys.base.BaseTest.setUp(BaseTest.java:47) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+Caused by: java.net.UnknownHostException: msedgedriver.azureedge.net
+	at java.net.InetAddress$CachedAddresses.get(InetAddress.java:801) ~[?:?]
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1532) ~[?:?]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1384) ~[?:?]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1305) ~[?:?]
+	at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:43) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183) ~[httpclient5-5.2.1.jar:5.2.1]
+	at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:157) ~[webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1550) ~[webdrivermanager-5.7.0.jar:?]
+	... 26 more
+2025-11-11 10:44:29 WARN  VersionDetector:155 - Exception reading https://msedgedriver.azureedge.net/LATEST_RELEASE_142_WINDOWS to get latest version of msedgedriver (No such host is known (msedgedriver.azureedge.net))
+2025-11-11 10:44:29 WARN  VersionDetector:155 - Exception reading https://msedgedriver.azureedge.net/LATEST_STABLE to get latest version of msedgedriver (msedgedriver.azureedge.net)
+2025-11-11 10:44:29 WARN  WebDriverManager:1424 - There was an error managing msedgedriver (latest version) (java.net.UnknownHostException: msedgedriver.azureedge.net) ... trying again using latest driver stored in cache
+2025-11-11 10:44:29 WARN  VersionDetector:155 - Exception reading https://msedgedriver.azureedge.net/LATEST_STABLE to get latest version of msedgedriver (msedgedriver.azureedge.net)
+2025-11-11 10:44:29 ERROR WebDriverManager:1413 - There was an error managing msedgedriver (latest version) (java.net.UnknownHostException: msedgedriver.azureedge.net)
+io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net
+	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1565) ~[webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.managers.EdgeDriverManager.getDriverUrls(EdgeDriverManager.java:115) ~[webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.createUrlHandler(WebDriverManager.java:1435) ~[webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1267) [webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1183) [webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1430) [webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1408) [webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1189) [webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:426) [webdrivermanager-5.7.0.jar:?]
+	at com.iasys.base.BaseTest.initializeLocalDriver(BaseTest.java:87) [classes/:?]
+	at com.iasys.base.BaseTest.setUp(BaseTest.java:47) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+Caused by: java.net.UnknownHostException: msedgedriver.azureedge.net
+	at java.net.InetAddress$CachedAddresses.get(InetAddress.java:801) ~[?:?]
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1532) ~[?:?]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1384) ~[?:?]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1305) ~[?:?]
+	at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:43) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183) ~[httpclient5-5.2.1.jar:5.2.1]
+	at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:157) ~[webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1550) ~[webdrivermanager-5.7.0.jar:?]
+	... 26 more
+2025-11-11 10:44:53 WARN  VersionDetector:155 - Exception reading https://msedgedriver.azureedge.net/LATEST_RELEASE_142_WINDOWS to get latest version of msedgedriver (No such host is known (msedgedriver.azureedge.net))
+2025-11-11 10:44:53 WARN  VersionDetector:155 - Exception reading https://msedgedriver.azureedge.net/LATEST_STABLE to get latest version of msedgedriver (msedgedriver.azureedge.net)
+2025-11-11 10:44:53 WARN  WebDriverManager:1424 - There was an error managing msedgedriver (latest version) (java.net.UnknownHostException: msedgedriver.azureedge.net) ... trying again using latest driver stored in cache
+2025-11-11 10:44:53 WARN  VersionDetector:155 - Exception reading https://msedgedriver.azureedge.net/LATEST_STABLE to get latest version of msedgedriver (msedgedriver.azureedge.net)
+2025-11-11 10:44:53 ERROR WebDriverManager:1413 - There was an error managing msedgedriver (latest version) (java.net.UnknownHostException: msedgedriver.azureedge.net)
+io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net
+	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1565) ~[webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.managers.EdgeDriverManager.getDriverUrls(EdgeDriverManager.java:115) ~[webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.createUrlHandler(WebDriverManager.java:1435) ~[webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1267) [webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1183) [webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1430) [webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1408) [webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1189) [webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:426) [webdrivermanager-5.7.0.jar:?]
+	at com.iasys.base.BaseTest.initializeLocalDriver(BaseTest.java:87) [classes/:?]
+	at com.iasys.base.BaseTest.setUp(BaseTest.java:47) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+Caused by: java.net.UnknownHostException: msedgedriver.azureedge.net
+	at java.net.InetAddress$CachedAddresses.get(InetAddress.java:801) ~[?:?]
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1532) ~[?:?]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1384) ~[?:?]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1305) ~[?:?]
+	at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:43) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183) ~[httpclient5-5.2.1.jar:5.2.1]
+	at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:157) ~[webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1550) ~[webdrivermanager-5.7.0.jar:?]
+	... 26 more
+2025-11-11 10:45:43 INFO  LoginTest:59 - WebDriver initialized for: chrome
+2025-11-11 10:45:43 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-11-11 10:45:55 INFO  LoginTest:120 - WebDriver quit and removed from ThreadLocal.
+2025-11-11 10:46:21 INFO  LoginTest:59 - WebDriver initialized for: chrome
+2025-11-11 10:46:21 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-11-11 10:46:33 INFO  LoginTest:120 - WebDriver quit and removed from ThreadLocal.
+2025-11-11 10:47:08 INFO  LoginTest:59 - WebDriver initialized for: chrome
+2025-11-11 10:47:11 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-11-11 10:47:24 INFO  LoginTest:120 - WebDriver quit and removed from ThreadLocal.
+2025-11-11 10:48:39 INFO  LoginTest:59 - WebDriver initialized for: chrome
+2025-11-11 10:48:40 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-11-11 10:48:51 INFO  LoginTest:120 - WebDriver quit and removed from ThreadLocal.
+2025-11-11 10:58:18 INFO  LoginTest:59 - WebDriver initialized for: chrome
+2025-11-11 10:58:29 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-11-11 10:58:34 INFO  LoginTest:120 - WebDriver quit and removed from ThreadLocal.
+2025-11-11 10:59:09 INFO  LoginTest:59 - WebDriver initialized for: chrome
+2025-11-11 10:59:09 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-11-11 10:59:23 INFO  LoginTest:120 - WebDriver quit and removed from ThreadLocal.
+2025-11-11 11:00:29 INFO  LoginTest:59 - WebDriver initialized for: chrome
+2025-11-11 11:00:29 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-11-11 11:00:45 INFO  LoginTest:120 - WebDriver quit and removed from ThreadLocal.
+2025-11-11 11:01:17 INFO  LoginTest:59 - WebDriver initialized for: chrome
+2025-11-11 11:01:18 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-11-11 11:01:40 INFO  LoginTest:120 - WebDriver quit and removed from ThreadLocal.
+2025-11-11 11:02:00 INFO  LoginTest:59 - WebDriver initialized for: chrome
+2025-11-11 11:02:00 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-11-11 11:02:17 INFO  LoginTest:120 - WebDriver quit and removed from ThreadLocal.
+2025-11-11 11:12:20 INFO  LoginTest:59 - WebDriver initialized for: chrome
+2025-11-11 11:12:20 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-11-11 11:12:47 INFO  LoginTest:120 - WebDriver quit and removed from ThreadLocal.
+2025-11-11 11:13:34 INFO  LoginTest:59 - WebDriver initialized for: chrome
+2025-11-11 11:13:58 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-11-11 11:14:06 INFO  LoginTest:120 - WebDriver quit and removed from ThreadLocal.
+2025-11-11 14:15:12 INFO  LoginTest:59 - WebDriver initialized for: chrome
+2025-11-11 14:15:37 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-11-11 14:15:41 INFO  LoginTest:120 - WebDriver quit and removed from ThreadLocal.
+2025-11-11 14:16:04 INFO  LoginTest:59 - WebDriver initialized for: chrome
+2025-11-11 14:16:28 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-11-11 14:16:33 INFO  LoginTest:120 - WebDriver quit and removed from ThreadLocal.
+2025-11-12 00:28:34 INFO  LoginTest:60 - WebDriver initialized for: chrome
+2025-11-12 00:28:44 INFO  LoginTest:121 - WebDriver quit and removed from ThreadLocal.
+2025-11-12 00:28:48 INFO  LoginTest:60 - WebDriver initialized for: chrome
+2025-11-12 00:28:48 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-11-12 00:29:40 INFO  LoginTest:60 - WebDriver initialized for: chrome
+2025-11-12 00:30:01 INFO  LoginTest:121 - WebDriver quit and removed from ThreadLocal.
+2025-11-12 00:30:35 INFO  LoginTest:60 - WebDriver initialized for: chrome
+2025-11-12 00:30:35 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-11-12 00:30:48 INFO  LoginTest:121 - WebDriver quit and removed from ThreadLocal.
+2025-11-12 00:33:59 INFO  LoginTest:60 - WebDriver initialized for: chrome
+2025-11-12 00:33:59 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-11-12 00:34:00 INFO  LoginTest:60 - WebDriver initialized for: chrome
+2025-11-12 00:34:02 INFO  LoginTest:121 - WebDriver quit and removed from ThreadLocal.
+2025-11-12 00:34:33 INFO  LoginTest:121 - WebDriver quit and removed from ThreadLocal.
+2025-11-12 10:33:08 INFO  LoginTest:60 - WebDriver initialized for: chrome
+2025-11-12 10:33:29 INFO  LoginTest:121 - WebDriver quit and removed from ThreadLocal.
+2025-11-12 10:33:30 INFO  LoginTest:60 - WebDriver initialized for: chrome
+2025-11-12 10:33:30 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-11-12 10:33:34 INFO  LoginTest:121 - WebDriver quit and removed from ThreadLocal.
+2025-11-12 10:35:11 INFO  LoginTest:60 - WebDriver initialized for: chrome
+2025-11-12 10:35:32 INFO  LoginTest:121 - WebDriver quit and removed from ThreadLocal.
+2025-11-12 10:35:36 INFO  LoginTest:60 - WebDriver initialized for: chrome
+2025-11-12 10:35:36 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-11-12 10:35:44 INFO  LoginTest:121 - WebDriver quit and removed from ThreadLocal.
+2025-11-12 10:36:21 INFO  LoginTest:60 - WebDriver initialized for: chrome
+2025-11-12 10:36:21 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-11-12 10:36:22 INFO  LoginTest:60 - WebDriver initialized for: chrome
+2025-11-12 10:37:13 INFO  LoginTest:121 - WebDriver quit and removed from ThreadLocal.
+2025-11-12 10:37:13 INFO  LoginTest:121 - WebDriver quit and removed from ThreadLocal.
+2025-11-13 12:46:07 INFO  LoginTest:60 - WebDriver initialized for: chrome
+2025-11-13 12:46:28 INFO  LoginTest:121 - WebDriver quit and removed from ThreadLocal.
+2025-11-13 12:46:29 INFO  LoginTest:60 - WebDriver initialized for: chrome
+2025-11-13 12:46:29 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-11-13 14:33:58 INFO  LoginTest:60 - WebDriver initialized for: chrome
+2025-11-13 14:34:19 INFO  LoginTest:121 - WebDriver quit and removed from ThreadLocal.
+2025-11-13 14:34:20 INFO  LoginTest:60 - WebDriver initialized for: chrome
+2025-11-13 14:34:20 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-11-13 14:34:46 INFO  LoginTest:121 - WebDriver quit and removed from ThreadLocal.
+2025-11-13 14:42:09 INFO  LoginTest:60 - WebDriver initialized for: chrome
+2025-11-13 14:42:10 INFO  LoginTest:60 - WebDriver initialized for: chrome
+2025-11-13 14:42:10 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-11-13 14:43:03 INFO  LoginTest:121 - WebDriver quit and removed from ThreadLocal.
+2025-11-13 14:43:03 INFO  LoginTest:121 - WebDriver quit and removed from ThreadLocal.
+2025-11-13 23:18:34 INFO  LoginTest:60 - WebDriver initialized for: chrome
+2025-11-13 23:19:17 INFO  LoginTest:121 - WebDriver quit and removed from ThreadLocal.
+2025-11-13 23:19:40 INFO  LoginTest:60 - WebDriver initialized for: chrome
+2025-11-13 23:19:40 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-11-13 23:20:02 INFO  LoginTest:121 - WebDriver quit and removed from ThreadLocal.
+2025-11-14 18:10:29 INFO  LoginTest:56 - WebDriver initialized for: chrome
+2025-11-14 18:10:50 INFO  LoginTest:117 - WebDriver quit and removed from ThreadLocal.
+2025-11-14 18:10:56 INFO  LoginTest:56 - WebDriver initialized for: chrome
+2025-11-14 18:10:56 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-11-14 18:11:17 INFO  LoginTest:117 - WebDriver quit and removed from ThreadLocal.
+2025-11-14 18:12:06 INFO  LoginTest:56 - WebDriver initialized for: chrome
+2025-11-14 18:12:06 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-11-14 18:12:07 INFO  LoginTest:56 - WebDriver initialized for: chrome
+2025-11-15 11:24:24 INFO  LoginTest:57 - WebDriver initialized for: chrome
+2025-11-15 11:24:36 INFO  LoginTest:108 - WebDriver quit and removed from ThreadLocal.
+2025-11-15 11:24:38 INFO  LoginTest:57 - WebDriver initialized for: chrome
+2025-11-15 11:24:38 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-11-15 11:24:41 INFO  LoginTest:108 - WebDriver quit and removed from ThreadLocal.
+2025-11-15 11:33:18 INFO  LoginTest:57 - WebDriver initialized for: chrome
+2025-11-15 11:33:50 INFO  LoginTest:108 - WebDriver quit and removed from ThreadLocal.
+2025-11-15 11:34:27 INFO  LoginTest:57 - WebDriver initialized for: chrome
+2025-11-15 11:34:27 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-11-15 11:34:32 INFO  LoginTest:108 - WebDriver quit and removed from ThreadLocal.
+2025-11-15 11:35:22 INFO  LoginTest:57 - WebDriver initialized for: chrome
+2025-11-15 11:36:15 INFO  LoginTest:57 - WebDriver initialized for: chrome
+2025-11-15 11:36:15 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-11-15 11:36:22 INFO  LoginTest:108 - WebDriver quit and removed from ThreadLocal.
+2025-11-15 11:36:53 INFO  LoginTest:108 - WebDriver quit and removed from ThreadLocal.
+2025-11-15 13:41:31 INFO  LoginTest:57 - WebDriver initialized for: chrome
+2025-11-15 13:41:31 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-11-15 13:41:38 INFO  LoginTest:57 - WebDriver initialized for: chrome
+2025-11-15 13:41:54 INFO  LoginTest:108 - WebDriver quit and removed from ThreadLocal.
+2025-11-15 13:42:00 INFO  LoginTest:108 - WebDriver quit and removed from ThreadLocal.
+2025-11-15 14:04:24 INFO  LoginTest:57 - WebDriver initialized for: chrome
+2025-11-15 14:04:45 INFO  LoginTest:108 - WebDriver quit and removed from ThreadLocal.
+2025-11-15 14:06:24 INFO  LoginTest:57 - WebDriver initialized for: chrome
+2025-11-15 14:06:24 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-11-15 14:06:46 INFO  LoginTest:108 - WebDriver quit and removed from ThreadLocal.
+2025-11-15 14:09:01 INFO  LoginTest:57 - WebDriver initialized for: chrome
+2025-11-15 14:09:24 INFO  LoginTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-15 14:10:28 INFO  LoginTest:57 - WebDriver initialized for: chrome
+2025-11-15 14:10:28 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-11-15 14:10:36 INFO  LoginTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-15 14:10:53 INFO  LoginTest:57 - WebDriver initialized for: chrome
+2025-11-15 14:11:15 INFO  LoginTest:113 - WebDriver quit and removed from ThreadLocal.
+2025-11-15 14:11:53 INFO  LoginTest:57 - WebDriver initialized for: chrome
+2025-11-15 14:11:53 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-11-15 14:11:58 INFO  LoginTest:113 - WebDriver quit and removed from ThreadLocal.
+2025-11-15 14:13:54 INFO  LoginTest:57 - WebDriver initialized for: chrome
+2025-11-15 14:14:04 INFO  LoginTest:113 - WebDriver quit and removed from ThreadLocal.
+2025-11-15 14:14:07 INFO  LoginTest:57 - WebDriver initialized for: chrome
+2025-11-15 14:14:07 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-11-15 15:23:43 WARN  VersionDetector:155 - Exception reading https://msedgedriver.azureedge.net/LATEST_RELEASE_142_WINDOWS to get latest version of msedgedriver (msedgedriver.azureedge.net)
+2025-11-15 15:23:43 WARN  VersionDetector:155 - Exception reading https://msedgedriver.azureedge.net/LATEST_RELEASE_142_WINDOWS to get latest version of msedgedriver (No such host is known (msedgedriver.azureedge.net))
+2025-11-15 15:23:43 WARN  VersionDetector:155 - Exception reading https://msedgedriver.azureedge.net/LATEST_STABLE to get latest version of msedgedriver (msedgedriver.azureedge.net)
+2025-11-15 15:23:43 WARN  VersionDetector:155 - Exception reading https://msedgedriver.azureedge.net/LATEST_STABLE to get latest version of msedgedriver (msedgedriver.azureedge.net)
+2025-11-15 15:23:43 WARN  WebDriverManager:1424 - There was an error managing msedgedriver (latest version) (java.net.UnknownHostException: msedgedriver.azureedge.net) ... trying again using latest driver stored in cache
+2025-11-15 15:23:43 WARN  WebDriverManager:1424 - There was an error managing msedgedriver (latest version) (java.net.UnknownHostException: msedgedriver.azureedge.net) ... trying again using latest driver stored in cache
+2025-11-15 15:23:43 WARN  VersionDetector:155 - Exception reading https://msedgedriver.azureedge.net/LATEST_STABLE to get latest version of msedgedriver (msedgedriver.azureedge.net)
+2025-11-15 15:23:43 WARN  VersionDetector:155 - Exception reading https://msedgedriver.azureedge.net/LATEST_STABLE to get latest version of msedgedriver (msedgedriver.azureedge.net)
+2025-11-15 15:23:43 ERROR WebDriverManager:1413 - There was an error managing msedgedriver (latest version) (java.net.UnknownHostException: msedgedriver.azureedge.net)
+io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net
+	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1565) ~[webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.managers.EdgeDriverManager.getDriverUrls(EdgeDriverManager.java:115) ~[webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.createUrlHandler(WebDriverManager.java:1435) ~[webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1267) [webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1183) [webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1430) [webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1408) [webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1189) [webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:426) [webdrivermanager-5.7.0.jar:?]
+	at com.iasys.base.BaseTest.initializeLocalDriver(BaseTest.java:78) [classes/:?]
+	at com.iasys.base.BaseTest.setUp(BaseTest.java:48) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+Caused by: java.net.UnknownHostException: msedgedriver.azureedge.net
+	at java.net.InetAddress$CachedAddresses.get(InetAddress.java:801) ~[?:?]
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1532) ~[?:?]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1384) ~[?:?]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1305) ~[?:?]
+	at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:43) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183) ~[httpclient5-5.2.1.jar:5.2.1]
+	at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:157) ~[webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1550) ~[webdrivermanager-5.7.0.jar:?]
+	... 32 more
+2025-11-15 15:23:43 ERROR WebDriverManager:1413 - There was an error managing msedgedriver (latest version) (java.net.UnknownHostException: msedgedriver.azureedge.net)
+io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net
+	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1565) ~[webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.managers.EdgeDriverManager.getDriverUrls(EdgeDriverManager.java:115) ~[webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.createUrlHandler(WebDriverManager.java:1435) ~[webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1267) [webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1183) [webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1430) [webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1408) [webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1189) [webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:426) [webdrivermanager-5.7.0.jar:?]
+	at com.iasys.base.BaseTest.initializeLocalDriver(BaseTest.java:78) [classes/:?]
+	at com.iasys.base.BaseTest.setUp(BaseTest.java:48) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+Caused by: java.net.UnknownHostException: msedgedriver.azureedge.net
+	at java.net.InetAddress$CachedAddresses.get(InetAddress.java:801) ~[?:?]
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1532) ~[?:?]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1384) ~[?:?]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1305) ~[?:?]
+	at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:43) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183) ~[httpclient5-5.2.1.jar:5.2.1]
+	at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:157) ~[webdrivermanager-5.7.0.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1550) ~[webdrivermanager-5.7.0.jar:?]
+	... 32 more
+2025-11-15 15:25:41 INFO  LoginTest:56 - WebDriver initialized for: firefox
+2025-11-15 15:25:41 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-11-15 15:25:47 INFO  LoginTest:56 - WebDriver initialized for: firefox
+2025-11-15 15:25:51 INFO  LoginTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-15 15:26:12 INFO  LoginTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-15 19:08:01 INFO  LoginTest:56 - WebDriver initialized for: firefox
+2025-11-15 19:08:01 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-11-15 19:08:07 INFO  LoginTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-15 19:11:19 INFO  LoginTest:56 - WebDriver initialized for: firefox
+2025-11-15 19:11:19 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-11-15 19:11:24 INFO  LoginTest:56 - WebDriver initialized for: firefox
+2025-11-15 19:11:24 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-11-15 19:11:30 INFO  LoginTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-15 19:11:30 INFO  LoginTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-15 19:13:34 INFO  LoginTest:56 - WebDriver initialized for: firefox
+2025-11-15 19:13:42 INFO  LoginTest:56 - WebDriver initialized for: chrome
+2025-11-15 19:13:42 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-11-15 19:13:48 INFO  LoginTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-15 19:13:59 INFO  LoginTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-15 19:26:29 INFO  LoginTest:56 - WebDriver initialized for: chrome
+2025-11-15 19:26:29 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-11-15 19:27:29 INFO  LoginTest:56 - WebDriver initialized for: chrome
+2025-11-15 19:27:46 INFO  LoginTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-15 19:27:51 INFO  LoginTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-15 19:29:00 INFO  LoginTest:56 - WebDriver initialized for: chrome
+2025-11-15 19:29:00 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-11-15 19:29:03 INFO  LoginTest:56 - WebDriver initialized for: chrome
+2025-11-15 19:29:07 INFO  LoginTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-15 19:29:26 INFO  LoginTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-15 20:12:42 INFO  LoginTest:56 - WebDriver initialized for: chrome
+2025-11-15 20:12:42 INFO  LoginTest:47 - ************************Login Test start*****************************
+2025-11-15 20:12:47 INFO  LoginTest:56 - WebDriver initialized for: chrome
+2025-11-15 20:12:47 INFO  LoginTest:47 - ************************Login Test start*****************************
+2025-11-15 20:12:51 INFO  LoginTest:56 - WebDriver initialized for: chrome
+2025-11-15 20:12:51 INFO  LoginTest:47 - ************************Login Test start*****************************
+2025-11-15 20:12:53 INFO  LoginTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-15 20:12:53 INFO  LoginTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-15 20:12:55 INFO  LoginTest:56 - WebDriver initialized for: chrome
+2025-11-15 20:12:55 INFO  LoginTest:47 - ************************Login Test start*****************************
+2025-11-15 20:13:24 INFO  LoginTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-15 20:13:27 INFO  LoginTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-15 22:25:40 INFO  ActionTest:56 - WebDriver initialized for: chrome
+2025-11-15 22:25:40 INFO  ActionTest:18 - ************************Login Test start*****************************
+2025-11-15 22:25:47 INFO  ActionTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-15 22:28:20 INFO  ActionTest:56 - WebDriver initialized for: chrome
+2025-11-15 22:28:20 INFO  ActionTest:18 - ************************Login Test start*****************************
+2025-11-15 22:28:22 INFO  ActionTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-15 22:29:49 INFO  ActionTest:56 - WebDriver initialized for: chrome
+2025-11-15 22:29:49 INFO  ActionTest:18 - ************************Login Test start*****************************
+2025-11-15 22:29:50 INFO  ActionTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-16 00:05:21 WARN  VersionDetector:360 - Error reading commands.properties, using local instead
+2025-11-16 00:05:24 INFO  ActionTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-16 00:07:54 INFO  ActionTest:56 - WebDriver initialized for: chrome
+2025-11-16 00:07:54 INFO  ActionTest:18 - ************************Login Test start*****************************
+2025-11-16 00:07:54 INFO  ActionTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-16 00:11:55 INFO  LoginTest:56 - WebDriver initialized for: chrome
+2025-11-16 00:13:17 INFO  ActionTest:56 - WebDriver initialized for: chrome
+2025-11-16 00:13:17 INFO  ActionTest:18 - ************************Login Test start*****************************
+2025-11-16 00:13:18 INFO  ActionTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-16 00:16:35 INFO  ActionTest:56 - WebDriver initialized for: chrome
+2025-11-16 00:16:35 INFO  ActionTest:18 - ************************Login Test start*****************************
+2025-11-16 00:18:05 INFO  ActionTest:56 - WebDriver initialized for: chrome
+2025-11-16 00:18:05 INFO  ActionTest:18 - ************************Login Test start*****************************
+2025-11-16 00:18:11 INFO  ActionTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-16 00:20:34 INFO  ActionTest:56 - WebDriver initialized for: chrome
+2025-11-16 00:20:34 INFO  ActionTest:18 - ************************Login Test start*****************************
+2025-11-16 00:20:54 INFO  ActionTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-16 11:36:47 INFO  HandlingMultipleWindow:56 - WebDriver initialized for: chrome
+2025-11-16 11:36:47 INFO  HandlingMultipleWindow:15 - ************************Login Test start*****************************
+2025-11-16 11:36:54 INFO  HandlingMultipleWindow:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-16 22:14:32 INFO  HandlingMultipleWindow:56 - WebDriver initialized for: chrome
+2025-11-16 22:14:32 INFO  HandlingMultipleWindow:15 - ************************Login Test start*****************************
+2025-11-16 22:14:54 INFO  HandlingMultipleWindow:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-16 22:16:06 INFO  HandlingMultipleWindow:56 - WebDriver initialized for: chrome
+2025-11-16 22:16:06 INFO  HandlingMultipleWindow:15 - ************************Login Test start*****************************
+2025-11-16 22:16:36 INFO  HandlingMultipleWindow:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-16 22:21:18 INFO  HandlingMultipleWindow:56 - WebDriver initialized for: chrome
+2025-11-16 22:21:18 INFO  HandlingMultipleWindow:15 - ************************Login Test start*****************************
+2025-11-16 22:21:24 INFO  HandlingMultipleWindow:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-16 23:07:06 INFO  HandlingMultipleWindow:56 - WebDriver initialized for: chrome
+2025-11-16 23:07:06 INFO  HandlingMultipleWindow:15 - ************************Login Test start*****************************
+2025-11-16 23:07:29 INFO  HandlingMultipleWindow:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-16 23:10:50 INFO  HandlingMultipleWindow:56 - WebDriver initialized for: chrome
+2025-11-16 23:10:50 INFO  HandlingMultipleWindow:15 - ************************Login Test start*****************************
+2025-11-16 23:11:09 INFO  HandlingMultipleWindow:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-16 23:19:24 INFO  HandlingMultipleWindow:56 - WebDriver initialized for: chrome
+2025-11-16 23:19:24 INFO  HandlingMultipleWindow:15 - ************************Login Test start*****************************
+2025-11-16 23:19:48 INFO  HandlingMultipleWindow:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 10:42:52 INFO  HandlingMultipleWindow:56 - WebDriver initialized for: chrome
+2025-11-17 10:42:52 INFO  HandlingMultipleWindow:15 - ************************Login Test start*****************************
+2025-11-17 10:43:53 INFO  HandlingMultipleWindow:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 10:45:32 INFO  HandlingMultipleWindow:56 - WebDriver initialized for: chrome
+2025-11-17 10:45:32 INFO  HandlingMultipleWindow:15 - ************************Login Test start*****************************
+2025-11-17 10:46:46 INFO  HandlingMultipleWindow:56 - WebDriver initialized for: chrome
+2025-11-17 10:46:46 INFO  HandlingMultipleWindow:15 - ************************Login Test start*****************************
+2025-11-17 11:07:11 INFO  HandlingMultipleWindow:56 - WebDriver initialized for: chrome
+2025-11-17 11:07:11 INFO  HandlingMultipleWindow:15 - ************************Login Test start*****************************
+2025-11-17 11:07:34 INFO  HandlingMultipleWindow:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 11:08:01 INFO  HandlingMultipleWindow:56 - WebDriver initialized for: chrome
+2025-11-17 11:08:01 INFO  HandlingMultipleWindow:15 - ************************Login Test start*****************************
+2025-11-17 11:13:56 INFO  HandlingMultipleWindow:56 - WebDriver initialized for: chrome
+2025-11-17 11:13:56 INFO  HandlingMultipleWindow:15 - ************************Login Test start*****************************
+2025-11-17 11:13:58 INFO  HandlingMultipleWindow:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 11:14:20 INFO  HandlingMultipleWindow:56 - WebDriver initialized for: chrome
+2025-11-17 11:14:20 INFO  HandlingMultipleWindow:15 - ************************Login Test start*****************************
+2025-11-17 11:14:22 INFO  HandlingMultipleWindow:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 11:15:13 INFO  HandlingMultipleWindow:56 - WebDriver initialized for: chrome
+2025-11-17 11:15:13 INFO  HandlingMultipleWindow:15 - ************************Login Test start*****************************
+2025-11-17 11:15:30 INFO  HandlingMultipleWindow:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 11:15:56 INFO  HandlingMultipleWindow:56 - WebDriver initialized for: chrome
+2025-11-17 11:15:56 INFO  HandlingMultipleWindow:15 - ************************Login Test start*****************************
+2025-11-17 11:17:06 INFO  HandlingMultipleWindow:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 12:41:36 INFO  HandlingMultipleWindow:56 - WebDriver initialized for: chrome
+2025-11-17 12:41:36 INFO  HandlingMultipleWindow:15 - ************************Login Test start*****************************
+2025-11-17 12:41:55 INFO  HandlingMultipleWindow:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 12:42:35 INFO  HandlingMultipleWindow:56 - WebDriver initialized for: chrome
+2025-11-17 12:42:35 INFO  HandlingMultipleWindow:15 - ************************Login Test start*****************************
+2025-11-17 12:42:52 INFO  HandlingMultipleWindow:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 12:55:18 INFO  HandlingMultipleWindow:56 - WebDriver initialized for: chrome
+2025-11-17 12:55:18 INFO  HandlingMultipleWindow:15 - ************************Login Test start*****************************
+2025-11-17 12:55:40 INFO  HandlingMultipleWindow:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 13:02:22 INFO  HandlingMultipleWindow:56 - WebDriver initialized for: chrome
+2025-11-17 13:02:22 INFO  HandlingMultipleWindow:15 - ************************Login Test start*****************************
+2025-11-17 13:02:44 INFO  HandlingMultipleWindow:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 14:15:23 INFO  HandlingMultipleWindow:56 - WebDriver initialized for: chrome
+2025-11-17 14:15:23 INFO  HandlingMultipleWindow:16 - ************************Login Test start*****************************
+2025-11-17 14:15:45 INFO  HandlingMultipleWindow:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 14:17:34 INFO  HandlingMultipleWindow:56 - WebDriver initialized for: chrome
+2025-11-17 14:17:34 INFO  HandlingMultipleWindow:16 - ************************Login Test start*****************************
+2025-11-17 14:17:52 INFO  HandlingMultipleWindow:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 14:22:05 INFO  HandlingMultipleWindow:56 - WebDriver initialized for: chrome
+2025-11-17 14:22:05 INFO  HandlingMultipleWindow:16 - ************************Login Test start*****************************
+2025-11-17 14:22:37 INFO  HandlingMultipleWindow:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 14:28:31 INFO  HandlingMultipleWindow:56 - WebDriver initialized for: chrome
+2025-11-17 14:28:31 INFO  HandlingMultipleWindow:16 - ************************Login Test start*****************************
+2025-11-17 14:28:59 INFO  HandlingMultipleWindow:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 14:31:22 INFO  HandlingMultipleWindow:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 14:31:37 INFO  HandlingMultipleWindow:56 - WebDriver initialized for: chrome
+2025-11-17 14:31:37 INFO  HandlingMultipleWindow:16 - ************************Login Test start*****************************
+2025-11-17 14:32:05 INFO  HandlingMultipleWindow:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 14:33:20 INFO  HandlingMultipleWindow:56 - WebDriver initialized for: chrome
+2025-11-17 14:33:20 INFO  HandlingMultipleWindow:16 - ************************Login Test start*****************************
+2025-11-17 15:42:51 INFO  HandlingMultipleWindow:56 - WebDriver initialized for: chrome
+2025-11-17 15:42:51 INFO  HandlingMultipleWindow:16 - ************************Login Test start*****************************
+2025-11-17 15:44:03 INFO  HandlingMultipleWindow:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 15:59:29 INFO  ActionTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 16:04:05 INFO  ActionTest:56 - WebDriver initialized for: chrome
+2025-11-17 16:04:05 INFO  ActionTest:15 - ************************Login Test start*****************************
+2025-11-17 16:04:47 INFO  ActionTest:56 - WebDriver initialized for: chrome
+2025-11-17 16:04:47 INFO  ActionTest:15 - ************************Login Test start*****************************
+2025-11-17 16:06:20 INFO  ActionTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 16:08:09 INFO  ActionTest:56 - WebDriver initialized for: chrome
+2025-11-17 16:08:09 INFO  ActionTest:15 - ************************Login Test start*****************************
+2025-11-17 16:08:14 INFO  ActionTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 16:10:27 INFO  ActionTest:56 - WebDriver initialized for: chrome
+2025-11-17 16:10:27 INFO  ActionTest:15 - ************************Login Test start*****************************
+2025-11-17 16:11:07 INFO  ActionTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 16:11:31 INFO  ActionTest:56 - WebDriver initialized for: chrome
+2025-11-17 16:11:31 INFO  ActionTest:15 - ************************Login Test start*****************************
+2025-11-17 16:13:01 INFO  ActionTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 16:13:35 INFO  ActionTest:56 - WebDriver initialized for: chrome
+2025-11-17 16:13:35 INFO  ActionTest:15 - ************************Login Test start*****************************
+2025-11-17 16:13:58 INFO  ActionTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 16:21:41 INFO  ActionTest:56 - WebDriver initialized for: chrome
+2025-11-17 16:21:41 INFO  ActionTest:15 - ************************Login Test start*****************************
+2025-11-17 16:22:00 INFO  ActionTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 17:02:59 INFO  ActionTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 17:03:12 INFO  ActionTest:56 - WebDriver initialized for: chrome
+2025-11-17 17:03:12 INFO  ActionTest:15 - ************************Login Test start*****************************
+2025-11-17 17:03:32 INFO  ActionTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 17:04:15 INFO  ActionTest:56 - WebDriver initialized for: chrome
+2025-11-17 17:04:15 INFO  ActionTest:15 - ************************Login Test start*****************************
+2025-11-17 17:04:34 INFO  ActionTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 17:05:20 INFO  ActionTest:56 - WebDriver initialized for: chrome
+2025-11-17 17:05:20 INFO  ActionTest:15 - ************************Login Test start*****************************
+2025-11-17 17:05:39 INFO  ActionTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 17:06:25 INFO  ActionTest:56 - WebDriver initialized for: chrome
+2025-11-17 17:06:25 INFO  ActionTest:15 - ************************Login Test start*****************************
+2025-11-17 17:08:49 INFO  ActionTest:56 - WebDriver initialized for: chrome
+2025-11-17 17:08:49 INFO  ActionTest:15 - ************************Login Test start*****************************
+2025-11-17 17:09:08 INFO  ActionTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 18:04:18 INFO  ActionTest:56 - WebDriver initialized for: chrome
+2025-11-17 18:04:18 INFO  ActionTest:34 - ************************Login Test start*****************************
+2025-11-17 18:05:17 INFO  ActionTest:56 - WebDriver initialized for: chrome
+2025-11-17 18:05:17 INFO  ActionTest:34 - ************************Login Test start*****************************
+2025-11-17 18:05:35 INFO  ActionTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 18:06:42 INFO  ActionTest:56 - WebDriver initialized for: chrome
+2025-11-17 18:06:42 INFO  ActionTest:34 - ************************Login Test start*****************************
+2025-11-17 18:08:20 INFO  ActionTest:56 - WebDriver initialized for: chrome
+2025-11-17 18:08:20 INFO  ActionTest:34 - ************************Login Test start*****************************
+2025-11-17 18:08:38 INFO  ActionTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 18:26:24 INFO  ActionTest:56 - WebDriver initialized for: chrome
+2025-11-17 18:26:24 INFO  ActionTest:46 - ************************Login Test start*****************************
+2025-11-17 18:26:35 INFO  ActionTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 18:27:08 INFO  ActionTest:56 - WebDriver initialized for: chrome
+2025-11-17 18:27:08 INFO  ActionTest:46 - ************************Login Test start*****************************
+2025-11-17 18:27:13 INFO  ActionTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 18:27:29 INFO  ActionTest:56 - WebDriver initialized for: chrome
+2025-11-17 18:27:29 INFO  ActionTest:16 - ************************Login Test start*****************************
+2025-11-17 18:27:56 INFO  ActionTest:56 - WebDriver initialized for: chrome
+2025-11-17 18:27:56 INFO  ActionTest:46 - ************************Login Test start*****************************
+2025-11-17 18:27:56 INFO  ActionTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 18:28:52 INFO  ActionTest:56 - WebDriver initialized for: chrome
+2025-11-17 18:28:52 INFO  ActionTest:46 - ************************Login Test start*****************************
+2025-11-17 18:28:58 INFO  ActionTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 18:39:00 INFO  ActionTest:56 - WebDriver initialized for: chrome
+2025-11-17 18:39:00 INFO  ActionTest:46 - ************************Login Test start*****************************
+2025-11-17 18:39:10 INFO  ActionTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 18:45:23 INFO  ActionTest:56 - WebDriver initialized for: chrome
+2025-11-17 18:45:23 INFO  ActionTest:46 - ************************Login Test start*****************************
+2025-11-17 18:45:29 INFO  ActionTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 18:47:19 INFO  ActionTest:56 - WebDriver initialized for: chrome
+2025-11-17 18:47:19 INFO  ActionTest:43 - ************************Login Test start*****************************
+2025-11-17 20:14:22 INFO  ActionTest:56 - WebDriver initialized for: chrome
+2025-11-17 20:14:22 INFO  ActionTest:43 - ************************Login Test start*****************************
+2025-11-17 20:14:23 INFO  ActionTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 20:15:16 INFO  ActionTest:56 - WebDriver initialized for: chrome
+2025-11-17 20:15:16 INFO  ActionTest:43 - ************************Login Test start*****************************
+2025-11-17 20:15:17 INFO  ActionTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 20:15:48 INFO  ActionTest:56 - WebDriver initialized for: chrome
+2025-11-17 20:15:48 INFO  ActionTest:43 - ************************Login Test start*****************************
+2025-11-17 20:15:54 INFO  ActionTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 22:32:00 INFO  ActionTest:56 - WebDriver initialized for: chrome
+2025-11-17 22:32:00 INFO  ActionTest:43 - ************************Login Test start*****************************
+2025-11-17 22:32:06 INFO  ActionTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 22:32:43 INFO  ActionTest:56 - WebDriver initialized for: chrome
+2025-11-17 22:32:43 INFO  ActionTest:43 - ************************Login Test start*****************************
+2025-11-17 22:32:51 INFO  ActionTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 23:13:58 INFO  ActionTest:56 - WebDriver initialized for: chrome
+2025-11-17 23:13:58 INFO  ActionTest:54 - ************************Login Test start*****************************
+2025-11-17 23:14:08 INFO  ActionTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 23:14:45 INFO  ActionTest:56 - WebDriver initialized for: chrome
+2025-11-17 23:14:45 INFO  ActionTest:54 - ************************Login Test start*****************************
+2025-11-17 23:15:07 INFO  ActionTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 23:16:22 INFO  ActionTest:56 - WebDriver initialized for: chrome
+2025-11-17 23:16:22 INFO  ActionTest:54 - ************************Login Test start*****************************
+2025-11-17 23:28:15 INFO  ActionTest:56 - WebDriver initialized for: chrome
+2025-11-17 23:28:15 INFO  ActionTest:54 - ************************Login Test start*****************************
+2025-11-17 23:28:35 INFO  ActionTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-17 23:31:27 INFO  ActionTest:56 - WebDriver initialized for: chrome
+2025-11-17 23:31:27 INFO  ActionTest:54 - ************************Login Test start*****************************
+2025-11-17 23:31:47 INFO  ActionTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-18 00:31:25 INFO  SelectDropdown:56 - WebDriver initialized for: chrome
+2025-11-18 00:31:25 INFO  SelectDropdown:17 - ************************Login Test start*****************************
+2025-11-18 00:31:51 INFO  SelectDropdown:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-18 00:34:18 INFO  SelectDropdown:56 - WebDriver initialized for: chrome
+2025-11-18 00:34:18 INFO  SelectDropdown:17 - ************************Login Test start*****************************
+2025-11-18 00:34:36 INFO  SelectDropdown:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-18 00:35:43 INFO  SelectDropdown:56 - WebDriver initialized for: chrome
+2025-11-18 00:35:43 INFO  SelectDropdown:17 - ************************Login Test start*****************************
+2025-11-18 00:36:00 INFO  SelectDropdown:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-18 00:38:38 INFO  ActionTest:56 - WebDriver initialized for: chrome
+2025-11-18 00:38:38 INFO  ActionTest:16 - ************************Login Test start*****************************
+2025-11-18 00:38:58 INFO  ActionTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-18 00:39:11 INFO  ActionTest:56 - WebDriver initialized for: chrome
+2025-11-18 00:39:11 INFO  ActionTest:54 - ************************Login Test start*****************************
+2025-11-18 00:39:39 INFO  SelectDropdown:56 - WebDriver initialized for: chrome
+2025-11-18 00:39:39 INFO  SelectDropdown:17 - ************************Login Test start*****************************
+2025-11-18 00:40:06 INFO  SelectDropdown:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-18 00:44:28 INFO  SelectDropdown:56 - WebDriver initialized for: chrome
+2025-11-18 00:44:28 INFO  SelectDropdown:17 - ************************Login Test start*****************************
+2025-11-18 00:44:42 INFO  SelectDropdown:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-18 00:46:11 INFO  SelectDropdown:56 - WebDriver initialized for: chrome
+2025-11-18 00:46:11 INFO  SelectDropdown:17 - ************************Login Test start*****************************
+2025-11-18 00:46:38 INFO  SelectDropdown:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-18 01:05:02 INFO  SelectDropdown:56 - WebDriver initialized for: chrome
+2025-11-18 01:05:02 INFO  SelectDropdown:17 - ************************Login Test start*****************************
+2025-11-18 01:05:29 INFO  SelectDropdown:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-18 01:08:33 INFO  SelectDropdown:56 - WebDriver initialized for: chrome
+2025-11-18 01:08:33 INFO  SelectDropdown:17 - ************************Login Test start*****************************
+2025-11-18 01:09:05 INFO  SelectDropdown:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-18 11:03:10 INFO  SelectDropdown:56 - WebDriver initialized for: chrome
+2025-11-18 11:03:10 INFO  SelectDropdown:15 - ************************Login Test start*****************************
+2025-11-18 11:03:35 INFO  SelectDropdown:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-18 11:04:06 INFO  SelectDropdown:56 - WebDriver initialized for: chrome
+2025-11-18 11:04:06 INFO  SelectDropdown:15 - ************************Login Test start*****************************
+2025-11-18 11:04:26 INFO  SelectDropdown:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-18 11:05:08 INFO  SelectDropdown:56 - WebDriver initialized for: chrome
+2025-11-18 11:05:08 INFO  SelectDropdown:15 - ************************Login Test start*****************************
+2025-11-18 11:05:32 INFO  SelectDropdown:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-18 11:06:07 INFO  SelectDropdown:56 - WebDriver initialized for: chrome
+2025-11-18 11:06:07 INFO  SelectDropdown:15 - ************************Login Test start*****************************
+2025-11-18 11:06:31 INFO  SelectDropdown:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-18 11:07:58 INFO  SelectDropdown:56 - WebDriver initialized for: chrome
+2025-11-18 11:07:58 INFO  SelectDropdown:15 - ************************Login Test start*****************************
+2025-11-18 11:08:28 INFO  SelectDropdown:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-18 15:01:52 INFO  TableDataReadTest:56 - WebDriver initialized for: chrome
+2025-11-18 15:01:52 INFO  TableDataReadTest:15 - ************************Login Test start*****************************
+2025-11-18 15:02:08 INFO  TableDataReadTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-18 15:04:11 INFO  TableDataReadTest:56 - WebDriver initialized for: chrome
+2025-11-18 15:04:11 INFO  TableDataReadTest:15 - ************************Login Test start*****************************
+2025-11-18 15:04:28 INFO  TableDataReadTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-18 15:09:14 INFO  TableDataReadTest:56 - WebDriver initialized for: chrome
+2025-11-18 15:09:14 INFO  TableDataReadTest:15 - ************************Login Test start*****************************
+2025-11-18 15:09:39 INFO  TableDataReadTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-18 15:10:06 INFO  TableDataReadTest:56 - WebDriver initialized for: chrome
+2025-11-18 15:10:06 INFO  TableDataReadTest:15 - ************************Login Test start*****************************
+2025-11-18 15:10:31 INFO  TableDataReadTest:111 - WebDriver quit and removed from ThreadLocal.
+2025-11-18 15:11:10 INFO  TableDataReadTest:56 - WebDriver initialized for: chrome
+2025-11-18 15:11:10 INFO  TableDataReadTest:15 - ************************Login Test start*****************************
+2025-11-18 22:22:08 INFO  TableDataReadTest:56 - WebDriver initialized for: chrome
+2025-11-18 22:22:08 INFO  TableDataReadTest:15 - ************************Login Test start*****************************
+2025-11-18 22:22:31 INFO  TableDataReadTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-11-18 22:25:55 INFO  TableDataReadTest:56 - WebDriver initialized for: chrome
+2025-11-18 22:25:55 INFO  TableDataReadTest:15 - ************************Login Test start*****************************
+2025-11-18 22:26:17 INFO  TableDataReadTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-11-18 23:33:11 INFO  TableDataReadTest:56 - WebDriver initialized for: chrome
+2025-11-18 23:33:11 INFO  TableDataReadTest:15 - ************************Login Test start*****************************
+2025-11-18 23:33:27 INFO  TableDataReadTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-11-18 23:37:55 INFO  TableDataReadTest:56 - WebDriver initialized for: chrome
+2025-11-18 23:37:55 INFO  TableDataReadTest:15 - ************************Login Test start*****************************
+2025-11-26 17:55:21 INFO  LoginTest:56 - WebDriver initialized for: chrome
+2025-11-26 17:55:21 INFO  LoginTest:17 - ************************Login Test start*****************************
+2025-11-26 17:55:32 INFO  LoginTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-11-26 17:55:33 INFO  LoginTest:56 - WebDriver initialized for: chrome
+2025-11-26 17:55:33 INFO  LoginTest:17 - ************************Login Test start*****************************
+2025-11-26 17:55:49 INFO  LoginTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-12-09 14:09:20 INFO  LoginTest:56 - WebDriver initialized for: chrome
+2025-12-09 14:09:35 INFO  LoginTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-12-09 14:09:45 INFO  LoginTest:56 - WebDriver initialized for: chrome
+2025-12-09 14:09:45 INFO  LoginTest:47 - ************************Login Test start*****************************
+2025-12-09 14:09:46 INFO  LoginTest:56 - WebDriver initialized for: chrome
+2025-12-09 14:09:46 INFO  LoginTest:47 - ************************Login Test start*****************************
+2025-12-09 14:09:46 INFO  LoginTest:56 - WebDriver initialized for: chrome
+2025-12-09 14:09:46 INFO  LoginTest:47 - ************************Login Test start*****************************
+2025-12-09 14:09:46 INFO  LoginTest:56 - WebDriver initialized for: chrome
+2025-12-09 14:09:46 INFO  LoginTest:47 - ************************Login Test start*****************************
+2025-12-09 14:09:57 INFO  LoginTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-12-09 14:09:58 INFO  LoginTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-12-09 14:09:58 INFO  LoginTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-12-09 14:10:00 INFO  LoginTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-12-09 14:10:01 INFO  LoginTest:56 - WebDriver initialized for: chrome
+2025-12-09 14:10:01 INFO  LoginTest:17 - ************************Login Test start*****************************
+2025-12-09 14:10:16 INFO  LoginTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-12-09 17:57:48 INFO  LoginTest:56 - WebDriver initialized for: chrome
+2025-12-09 17:57:49 INFO  LoginTest:17 - ************************Login Test start*****************************
+2025-12-09 17:58:53 INFO  LoginTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-12-10 12:43:48 INFO  LoginTest:56 - WebDriver initialized for: chrome
+2025-12-10 12:43:59 INFO  LoginTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-12-10 12:44:03 INFO  LoginTest:56 - WebDriver initialized for: chrome
+2025-12-10 12:44:03 INFO  LoginTest:47 - ************************Login Test start*****************************
+2025-12-10 12:44:03 INFO  LoginTest:56 - WebDriver initialized for: chrome
+2025-12-10 12:44:03 INFO  LoginTest:47 - ************************Login Test start*****************************
+2025-12-10 12:44:10 INFO  LoginTest:56 - WebDriver initialized for: chrome
+2025-12-10 12:44:10 INFO  LoginTest:47 - ************************Login Test start*****************************
+2025-12-10 12:44:11 INFO  LoginTest:56 - WebDriver initialized for: chrome
+2025-12-10 12:44:11 INFO  LoginTest:47 - ************************Login Test start*****************************
+2025-12-10 12:44:17 INFO  LoginTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-12-10 12:44:21 INFO  LoginTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-12-10 12:44:22 INFO  LoginTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-12-10 12:44:22 INFO  LoginTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-12-10 12:44:25 INFO  LoginTest:56 - WebDriver initialized for: chrome
+2025-12-10 12:44:25 INFO  LoginTest:17 - ************************Login Test start*****************************
+2025-12-15 10:47:03 INFO  LoginTest:56 - WebDriver initialized for: chrome
+2025-12-15 10:47:03 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-12-15 10:47:15 INFO  LoginTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-12-15 10:50:24 INFO  LoginTest:56 - WebDriver initialized for: chrome
+2025-12-15 10:50:24 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-12-15 10:50:35 INFO  LoginTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-12-15 10:50:40 INFO  LoginTest:56 - WebDriver initialized for: chrome
+2025-12-15 10:50:40 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-12-15 10:50:52 INFO  LoginTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-12-15 10:52:16 INFO  LoginTest:56 - WebDriver initialized for: chrome
+2025-12-15 10:52:16 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-12-15 10:52:27 INFO  LoginTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-12-15 10:52:27 INFO  LoginTest:56 - WebDriver initialized for: chrome
+2025-12-15 10:52:27 INFO  LoginTest:16 - ************************Login Test start*****************************
+2025-12-15 10:52:44 INFO  LoginTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-12-15 15:14:46 INFO  UsersTest:56 - WebDriver initialized for: chrome
+2025-12-15 15:14:46 INFO  UsersTest:15 - ************************Login Test start*****************************
+2025-12-15 15:14:47 INFO  UsersTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-12-15 15:15:41 INFO  UsersTest:56 - WebDriver initialized for: chrome
+2025-12-15 15:15:41 INFO  UsersTest:15 - ************************Login Test start*****************************
+2025-12-15 15:15:46 INFO  UsersTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-12-15 15:20:12 INFO  UsersTest:56 - WebDriver initialized for: chrome
+2025-12-15 15:20:12 INFO  UsersTest:15 - ************************Login Test start*****************************
+2025-12-15 15:20:13 INFO  UsersTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-12-15 15:31:11 INFO  UsersTest:56 - WebDriver initialized for: chrome
+2025-12-15 15:31:11 INFO  UsersTest:15 - ************************Login Test start*****************************
+2025-12-15 15:31:16 INFO  UsersTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-12-15 15:32:17 INFO  UsersTest:56 - WebDriver initialized for: chrome
+2025-12-15 15:32:17 INFO  UsersTest:15 - ************************Login Test start*****************************
+2025-12-15 15:36:44 INFO  UsersTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-12-15 15:38:54 INFO  UsersTest:56 - WebDriver initialized for: chrome
+2025-12-15 15:38:54 INFO  UsersTest:15 - ************************Login Test start*****************************
+2025-12-15 16:40:22 INFO  UsersTest:56 - WebDriver initialized for: chrome
+2025-12-15 16:40:22 INFO  UsersTest:15 - ************************Login Test start*****************************
+2025-12-15 16:40:23 INFO  UsersTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-12-15 16:43:09 INFO  UsersTest:56 - WebDriver initialized for: chrome
+2025-12-15 16:43:09 INFO  UsersTest:15 - ************************Login Test start*****************************
+2025-12-15 16:43:27 INFO  UsersTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-12-15 17:37:37 INFO  UsersTest:56 - WebDriver initialized for: chrome
+2025-12-15 17:37:37 INFO  UsersTest:15 - ************************Login Test start*****************************
+2025-12-15 17:37:38 INFO  UsersTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-12-15 17:38:27 INFO  UsersTest:56 - WebDriver initialized for: chrome
+2025-12-15 17:38:27 INFO  UsersTest:15 - ************************Login Test start*****************************
+2025-12-15 17:38:45 INFO  UsersTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-12-15 17:39:48 INFO  UsersTest:56 - WebDriver initialized for: chrome
+2025-12-15 17:39:48 INFO  UsersTest:15 - ************************Login Test start*****************************
+2025-12-15 17:39:49 INFO  UsersTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-12-15 17:42:49 INFO  UsersTest:56 - WebDriver initialized for: chrome
+2025-12-15 17:42:49 INFO  UsersTest:15 - ************************Login Test start*****************************
+2025-12-15 17:43:12 INFO  UsersTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-12-15 17:45:31 INFO  UsersTest:56 - WebDriver initialized for: chrome
+2025-12-15 17:45:31 INFO  UsersTest:15 - ************************Login Test start*****************************
+2025-12-15 17:45:44 INFO  UsersTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-12-15 17:48:23 INFO  UsersTest:56 - WebDriver initialized for: chrome
+2025-12-15 17:48:23 INFO  UsersTest:15 - ************************Login Test start*****************************
+2025-12-15 17:48:40 INFO  UsersTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-12-15 18:18:14 INFO  UsersTest:56 - WebDriver initialized for: chrome
+2025-12-15 18:18:15 INFO  UsersTest:15 - ************************Login Test start*****************************
+2025-12-15 18:18:29 INFO  UsersTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-12-15 18:19:52 INFO  UsersTest:56 - WebDriver initialized for: chrome
+2025-12-15 18:19:52 INFO  UsersTest:15 - ************************Login Test start*****************************
+2025-12-15 18:20:07 INFO  UsersTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-12-15 18:22:23 INFO  UsersTest:56 - WebDriver initialized for: chrome
+2025-12-15 18:22:23 INFO  UsersTest:15 - ************************Login Test start*****************************
+2025-12-15 18:22:43 INFO  UsersTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-12-15 18:25:02 INFO  UsersTest:56 - WebDriver initialized for: chrome
+2025-12-15 18:25:02 INFO  UsersTest:15 - ************************Login Test start*****************************
+2025-12-15 18:25:28 INFO  UsersTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-12-15 18:26:28 INFO  UsersTest:56 - WebDriver initialized for: chrome
+2025-12-15 18:26:28 INFO  UsersTest:15 - ************************Login Test start*****************************
+2025-12-15 18:26:32 INFO  UsersTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-12-15 18:27:26 INFO  UsersTest:56 - WebDriver initialized for: chrome
+2025-12-15 18:27:26 INFO  UsersTest:15 - ************************Login Test start*****************************
+2025-12-15 18:27:46 INFO  UsersTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-12-15 18:30:27 INFO  UsersTest:56 - WebDriver initialized for: chrome
+2025-12-15 18:30:27 INFO  UsersTest:15 - ************************Login Test start*****************************
+2025-12-15 18:30:39 INFO  UsersTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-12-15 18:30:54 INFO  UsersTest:56 - WebDriver initialized for: chrome
+2025-12-15 18:30:54 INFO  UsersTest:15 - ************************Login Test start*****************************
+2025-12-15 18:31:07 INFO  UsersTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-12-15 18:31:44 INFO  UsersTest:56 - WebDriver initialized for: chrome
+2025-12-15 18:31:44 INFO  UsersTest:15 - ************************Login Test start*****************************
+2025-12-15 18:32:07 INFO  UsersTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-12-15 18:32:22 INFO  UsersTest:56 - WebDriver initialized for: chrome
+2025-12-15 18:32:22 INFO  UsersTest:15 - ************************Login Test start*****************************
+2025-12-15 18:32:49 INFO  UsersTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-12-15 18:40:49 INFO  UsersTest:56 - WebDriver initialized for: chrome
+2025-12-15 18:40:49 INFO  UsersTest:15 - ************************Login Test start*****************************
+2025-12-15 18:40:59 INFO  UsersTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-12-15 18:41:45 INFO  UsersTest:56 - WebDriver initialized for: chrome
+2025-12-15 18:41:45 INFO  UsersTest:15 - ************************Login Test start*****************************
+2025-12-15 18:42:06 INFO  UsersTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-12-15 18:42:35 INFO  UsersTest:56 - WebDriver initialized for: chrome
+2025-12-15 18:42:35 INFO  UsersTest:15 - ************************Login Test start*****************************
+2025-12-15 18:42:56 INFO  UsersTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-12-15 18:43:41 INFO  UsersTest:56 - WebDriver initialized for: chrome
+2025-12-15 18:43:41 INFO  UsersTest:15 - ************************Login Test start*****************************
+2025-12-15 18:44:03 INFO  UsersTest:112 - WebDriver quit and removed from ThreadLocal.
+2025-12-15 21:49:45 INFO  UsersTest:56 - WebDriver initialized for: chrome
+2025-12-15 21:49:45 INFO  UsersTest:15 - ************************Login Test start*****************************
+2025-12-15 21:50:07 INFO  UsersTest:112 - WebDriver quit and removed from ThreadLocal.

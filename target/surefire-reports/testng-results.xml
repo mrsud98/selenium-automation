@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-12T12:14:08 IST" name="Suite" finished-at="2025-10-12T12:14:48 IST" duration-ms="39873">
+    <groups>
+    </groups>
+    <test started-at="2025-10-12T12:14:08 IST" name="LoginTestSuite" finished-at="2025-10-12T12:14:48 IST" duration-ms="39873">
+      <class name="com.iasys.tests.LoginTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.iasys.tests.LoginTest@6b00f608]" started-at="2025-10-12T12:14:08 IST" name="beforeSuite" finished-at="2025-10-12T12:14:08 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.iasys.tests.LoginTest@6b00f608]" started-at="2025-10-12T12:14:08 IST" name="setup" finished-at="2025-10-12T12:14:10 IST" duration-ms="1648" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithValidCredentials()[pri:4, instance:com.iasys.tests.LoginTest@6b00f608]" started-at="2025-10-12T12:14:10 IST" name="loginWithValidCredentials" finished-at="2025-10-12T12:14:47 IST" duration-ms="37644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentials -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.iasys.tests.LoginTest@6b00f608]" started-at="2025-10-12T12:14:47 IST" name="afterMethod" finished-at="2025-10-12T12:14:47 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithValidCredentials status=SUCCESS method=LoginTest.loginWithValidCredentials()[pri:4, instance:com.iasys.tests.LoginTest@6b00f608] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.iasys.tests.LoginTest@6b00f608]" started-at="2025-10-12T12:14:47 IST" name="tearDown" finished-at="2025-10-12T12:14:48 IST" duration-ms="555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.iasys.tests.LoginTest@6b00f608]" started-at="2025-10-12T12:14:48 IST" name="afterSuite" finished-at="2025-10-12T12:14:48 IST" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.iasys.tests.LoginTest -->
+    </test> <!-- LoginTestSuite -->
+  </suite> <!-- Suite -->
+</testng-results>

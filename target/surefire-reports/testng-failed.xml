@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="20" parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.iasys.listeners.ExtentTestListener"/>
+    <listener class-name="com.iasys.listeners.RetryTransformer"/>
+  </listeners>
+  <test thread-count="20" parallel="methods" name="LoginTestSuite(failed)" verbose="0">
+    <classes>
+      <class name="com.iasys.tests.LoginTest">
+        <methods>
+          <include name="loginWithValidCredentials"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.iasys.tests.LoginTest -->
+    </classes>
+  </test> <!-- LoginTestSuite(failed) -->
+</suite> <!-- Failed suite [Suite] -->

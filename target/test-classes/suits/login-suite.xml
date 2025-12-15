@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="methods" thread-count="5">
+
+    <listeners>
+        <listener class-name="com.iasys.utilities.ExtentReporter"/>
+       <!-- <listener class-name="com.iasys.listeners.RetryAnalyzer"/>-->
+    </listeners>
+
+    <test name="LoginTestSuite">
+     <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.iasys.tests.LoginTest">
+              <methods>
+			      <include name="loginWithValidCredentials"/>
+			     <!-- <include name="loginWithInValidCredentials"/>
+			      <include name="languageButtonPresence"/>
+			      <include name="loginWithMultipleUsers"/>-->
+			   </methods>
+			</class>
+        </classes>
+    </test>
+</suite>

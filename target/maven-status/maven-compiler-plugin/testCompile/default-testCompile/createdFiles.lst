@@ -1,0 +1,5 @@
+com\iasys\tests\LoginTest.class
+com\iasys\tests\DashboardTest.class
+com\iasys\tests\FrameTest.class
+com\iasys\tests\SelectClassTest.class
+com\iasys\tests\FrameTest$LoginTest.class
