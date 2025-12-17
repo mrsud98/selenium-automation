@@ -1,1 +1,13 @@
+# Logs
+logs/
+*.log
 
+# Maven
+target/
+
+# TestNG reports
+test-output/
+
+# OS files
+.DS_Store
+Thumbs.db
